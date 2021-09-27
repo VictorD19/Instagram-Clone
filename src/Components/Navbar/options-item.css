@@ -1,0 +1,11 @@
+.options-container{
+list-style: none;
+display: flex;
+
+}
+.options-item{
+    width: 30px;
+    margin-left: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
