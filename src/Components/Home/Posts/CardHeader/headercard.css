@@ -1,0 +1,36 @@
+.header-card-post{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.options-card{
+    width: 40px;
+    height: 100%;
+}
+.options-card>button{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+.info-card-post{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+}
+.info-card-post>img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.info-card-description{
+    margin-left: 10px;
+    text-align: center;
+    
+}

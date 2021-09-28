@@ -1,0 +1,16 @@
+.home-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+.content{
+    width: 48%;
+    margin-right: 10px;
+}
+.right-content{
+    height: 650px;
+    width: 30%;
+}

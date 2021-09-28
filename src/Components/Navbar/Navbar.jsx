@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="parts-nav">
             <Logo/>
         </div>
-        <div className="parts-nav">
+        <div className="parts-nav-medio">
         <InputText/>
 
         </div>

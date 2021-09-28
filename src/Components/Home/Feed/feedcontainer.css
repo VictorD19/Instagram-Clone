@@ -1,0 +1,12 @@
+.feedcontent{
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    overflow:hidden;
+    background: #fff;
+    border: 1px solid #d1cfcf;
+    
+    border-radius: 5px;
+
+}

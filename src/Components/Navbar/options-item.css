@@ -1,11 +1,13 @@
 .options-container{
 list-style: none;
 display: flex;
-
+flex-direction: row-reverse;
 }
 .options-item{
     width: 30px;
+    height: 30px;
     margin-left: 5px;
-    font-size: 22px;
+    font-size: 25px;
+    margin-left: 15px;
     cursor: pointer;
 }

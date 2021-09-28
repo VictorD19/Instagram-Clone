@@ -1,10 +1,12 @@
 import React from 'react';
 import { AiFillHome ,AiOutlineCompass,AiOutlineHeart} from 'react-icons/ai'
 import { FiSend } from 'react-icons/fi'
+import ItemConta from './ItemConta';
 
 import './options-item.css'
 const ObtionMenus = () => {
-    const listOptions = [<AiFillHome/>,<FiSend/>,<AiOutlineCompass/>,<AiOutlineHeart/>]
+    const listOptions = [<ItemConta/>,<AiOutlineHeart/>,<AiOutlineCompass/>,,<FiSend/>,<AiFillHome/>]
+   
 
     return (
         <ul className="options-container">
@@ -13,7 +15,7 @@ const ObtionMenus = () => {
             <li className="options-item"><AiOutlineCompass/></li>
             <li className="options-item"><AiOutlineHeart/></li> */}
 
-            {listOptions.map(icon => <li className="options-item">{icon}</li>)}
+            {listOptions.map((icon,id) => <li key={id} className="options-item">{icon}</li>)}
         </ul>
     );
 }
